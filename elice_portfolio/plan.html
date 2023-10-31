@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/main.js"defer></script>
+    <style>
+        .text1{
+            border-right: 3px solid black;
+            animation: blink .5s infinite, typing 2s steps(4);
+            width:0;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        @keyframes blink{
+            50%{
+                border-color: transparent;
+            }
+        }
+
+        @keyframes typing{
+            from{
+                width: 0;
+            }
+            to{
+                width:150
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+
+        <nav class="navigator">
+            <div>
+                <a href="index.html"><img src = "./image/Group 1.png" class="./image/picture_1" > </a>
+            </div>
+            
+            <div class="nav-li">
+                <ul class="nav-menu">
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="portfolio.html" >Portfolio</a></li>
+                    <li><a href="plan.html">Plan</a></li>
+                </ul>
+            </div>
+            
+            
+            <a href="#" class="nav_toogleBtn">
+                <img src="./image/Group 3.png" class="nav_toogleBtn" >
+            </a>
+        </nav>
+
+
+        <div class="me01">
+            <img id = "profile_picture01" src = "./image/라이언_증명사진.png" >
+            <div class="introduction">
+                <br>
+                <a class="text2">Name.</a>
+                <a class="text3">유지희</a>
+                <br>
+                <a class="text2">Contact.</a>
+                <a href="https://section.blog.naver.com/BlogHome.naver"><img src ="./image/네이버_블로그_아이콘.png" class="contact_site01"> </a>
+                <a href="https://github.com"><img src ="./image/깃허브_아이콘.png" class="contact_site01"></a>
+                <a href="yjhjy0000@gmail.com"><img src ="./image/Vector.png"class="contact_email01"></a> 
+            </div>
+
+            
+                
+            
+        </div>
+
+        
+
+        <div class="plan">
+            <div>
+                <div class="plan-total"" id="plan01">
+                    <h3 class="plan-title" id="project-plan01">Project</h3>
+                    <div class="project-info">
+                        <p class="plan-comment">현재 진행중인 프로젝트1</p>
+                        <p class="plan-comment">현재 진행중인 프로젝트2</p>
+                        <p class="plan-comment">현재 진행중인 프로젝트3</p>
+                        
+                    </div>            
+                </div>
+            </div>
+            
+    
+            
+            <div class="plan-total"" id="Study01">
+                 <h3 class="plan-title" id="study-plan01">Study</h3>
+                    <div class="study-info">
+                        <p class="plan-comment">AI관련 Python</p>
+                        <p class="plan-comment">Java</p>
+                        <p class="plan-comment">피그마</p>
+                    </div>            
+                
+            </div>
+
+            
+
+
+            
+            <div class="plan-total"" id="ect01">
+                <h3 class="plan-title" id="ect-plan01">Ect</h3>
+                    <div class="ect-info">
+                        <p class="plan-comment">앞으로 딸 자격증1</p>
+                        <p class="plan-comment">앞으로 딸 자격증2</p>
+                        <p class="plan-comment">앞으로 딸 자격증3</p>
+                        <p class="plan-comment">앞으로 딸 자격증4</p>
+                    </div>            
+            </div>
+                
+            
+        
+        </div>
+
+
+
+        
+        <footer class="footer">ⓒ2023</footer>
+
+</body>
+
+
+
+</html>
